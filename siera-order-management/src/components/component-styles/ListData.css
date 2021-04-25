@@ -1,0 +1,26 @@
+ul.listContainer {
+  padding-inline-start: 0px;
+}
+
+.listContainer li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: rgb(210 210 210 / 74%);
+  border-bottom: 1px solid #fff;
+}
+
+.liLbl {
+  background-color: rgba(78, 113, 141, 0.74);
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+}
+
+.liVal {
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+}

@@ -1,0 +1,72 @@
+body,
+html {
+  height: auto;
+}
+
+body {
+  background: rgb(241, 238, 226);
+  background: linear-gradient(166deg, rgba(241, 238, 226, 1) 20%, rgba(226, 241, 247, 1) 52%, rgba(206, 242, 233, 1) 77%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.siteHeader {
+  background: rgb(26, 174, 240);
+  background: linear-gradient(36deg, rgba(26, 174, 240, 1) 20%, rgba(26, 174, 240, 1) 38%, rgba(48, 176, 142, 1) 77%);
+  display: flex;
+  padding: 1rem;
+}
+
+.brand {
+  font-weight: 600;
+  flex-grow: 1;
+  font-size: 1.3rem;
+}
+
+.mainMenu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 0.5rem;
+}
+
+.pageHeader {
+  display: flex;
+  background: #a5a3a3;
+  padding: 0.3rem 1rem;
+  box-shadow: inset 0 1px 1px #7b7373;
+  align-items: center;
+}
+
+.pageTitle {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 1px 1px #3a3535;
+}
+
+.tools {
+  margin: 0.3rem;
+}
+
+.container {
+  padding: 1.3rem;
+}
+
+.gridDards {
+  border: 1px solid #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px #d4c8c8;
+  background: #f9f9f9;
+}
+
+footer {
+  display: flex;
+  background: #403b3b;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  justify-content: center;
+}

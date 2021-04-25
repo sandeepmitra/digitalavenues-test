@@ -1,0 +1,10 @@
+.orderModal .modalTrigger {
+  background-color: #fb9d00;
+  color: #3c3232;
+}
+
+.ui.modal > .close {
+  top: 5px;
+  right: 5px;
+  color: #080808;
+}

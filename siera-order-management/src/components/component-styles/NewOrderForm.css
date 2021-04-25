@@ -1,0 +1,25 @@
+.form .inline label {
+  width: 125px !important;
+  background: #c3c3c3;
+  padding: 0.75rem;
+}
+
+.form .field {
+  display: flex !important;
+}
+
+.form .inpElm {
+  flex-grow: 1;
+}
+
+.form .disabled {
+  opacity: 1 !important;
+  border-radius: 0.3rem;
+}
+
+.form .disabled input {
+  font-weight: 600 !important;
+  color: #050a25 !important;
+  opacity: 1 !important;
+  background: #6b90a0bf !important;
+}
